@@ -1,0 +1,65 @@
+*{
+ padding: 0;
+ box-sizing: border-box;
+ margin: 0;   
+}
+.home-container{
+  background-image: url(../images/home.jpg); 
+    height: 700px;
+    background-size: cover;
+    opacity: 90%;
+    
+    
+    
+  
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    
+}
+.logo{
+    color: red;
+    font-family: 'Helvetica','Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.login{
+    background-color: red;
+    border-radius: 8%;
+    height: 35px;
+    padding: 5px 20px;
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+.home{
+    color: white;
+    margin: 60px 150px;
+    text-align: center;
+    
+    
+}
+h1{
+    width: 45%;
+    margin: auto;
+    margin-top: 15%;
+    
+}
+input{
+    display: flex;
+    justify-content: left;
+}
+.email{
+    background-color: red;
+    width: 200px;
+    display: flex;
+    justify-content: end;
+}
+
+
